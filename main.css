@@ -4,6 +4,10 @@
     width: 100%;
 }
 
+.content {
+    margin: 3%;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -120,3 +124,31 @@ a {
 .introtext{
     font-style: normal;
 }
+
+.header {
+    padding: 80px;
+    text-align: center; 
+    background: #eccc68; 
+    color: black; 
+  }
+  
+.header h1 {
+    font-size: 40px;
+  }
+
+.video {
+    padding: 80px;
+    text-align: center;
+    font-size: large;
+}
+
+.video1 {background: #ff6348;}
+.video2 {background: #ff7f50;}
+.video3 {background: #ff4757;}
+.video4 {background: #f1c40f;}
+
+iframe.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
